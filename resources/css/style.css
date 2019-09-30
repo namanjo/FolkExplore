@@ -13,6 +13,14 @@ html, body{
   text-rendering: optimizeLegibility;
 }
 
+.clearfix{zoom:1}
+.clearfix:after{
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
 /*--------------------------*/
 /*Reusable Content*/
 /*--------------------------*/
@@ -225,4 +233,91 @@ header{
 .city-photo img:hover{
   opacity: 1;
   transform: scale(1);
+}
+
+/*--------------------------*/
+/*Travel essentials*/
+/*--------------------------*/
+.section-blogs{
+  padding: 60px 0;
+  background-color: #F7F7F7;
+}
+
+.section-blogs .long-copy{
+  margin-bottom: 40px;
+}
+
+.card{
+  display: block;
+  float: left;
+  width: 22%;
+  height: 400px;
+  background: #000;
+  box-shadow: 0 2px 6px #000;
+  position: relative;
+  border-radius: 7px;
+  margin-left: 4%;
+  transition: transform .3s;
+}
+
+.card:first-of-type{
+  margin-left: 0;
+}
+
+.card-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-img img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  opacity: .7;
+}
+
+.card-img img:hover{
+  opacity: .9;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.card-content{
+  color: #fff;
+  height: 160px;
+  font-weight: 400;
+  font-size: 110%;
+  word-spacing: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+}
+
+.card-content a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 70%;
+  border: 1px solid #fff;
+  padding: 12px 0;
+  width: 60%;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color .3s, color .3s;
+}
+
+.card-content a:hover{
+  background-color: #fff;
+  color: #000;
 }
