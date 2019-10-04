@@ -239,7 +239,7 @@ header{
 /*Travel essentials*/
 /*--------------------------*/
 .section-blogs{
-  padding: 60px 0;
+  /* padding: 60px 0; */
   background-color: #F7F7F7;
 }
 
@@ -320,4 +320,75 @@ header{
 .card-content a:hover{
   background-color: #fff;
   color: #000;
+}
+
+/*--------------------------*/
+/*Section-steps*/
+/*--------------------------*/
+
+.section-steps .steps-card{
+  display: block;
+  width: 97%;
+  height: 400px;
+  box-shadow: 0 2px 6px #000;
+  position: relative;
+  border-radius: 7px;
+  transition: transform .3s;
+  float: right;
+}
+
+.steps-box:first-child{
+  padding-right: 3%;
+  margin-top: 20px;
+}
+
+.steps-box:last-child{
+  padding-left: 3%;
+  margin-top: 70px;
+}
+
+.steps-card:hover{
+  transform: scale(1.12);
+}
+
+.my-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.my-img img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.work-steps{
+  margin-bottom: 40px;
+}
+
+.work-steps:last-of-type{
+  margin-bottom: 60px;
+}
+
+.work-steps div{
+  border: 1px solid #555;
+  display: inline-block;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 20px;
+}
+
+.btn-app img{
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }
