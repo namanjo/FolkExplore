@@ -239,7 +239,6 @@ header{
 /*Travel essentials*/
 /*--------------------------*/
 .section-blogs{
-  /* padding: 60px 0; */
   background-color: #F7F7F7;
 }
 
@@ -329,7 +328,7 @@ header{
 .section-steps .steps-card{
   display: block;
   width: 97%;
-  height: 400px;
+  height: 450px;
   box-shadow: 0 2px 6px #000;
   position: relative;
   border-radius: 7px;
@@ -344,7 +343,7 @@ header{
 
 .steps-box:last-child{
   padding-left: 3%;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .steps-card:hover{
@@ -391,4 +390,46 @@ header{
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+/*--------------------------*/
+/*Experiance-TravelFolks*/
+/*--------------------------*/
+
+.section-views{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.section-views h2:after{
+  background-color: #fff;
+}
+
+blockquote{
+  padding: 5%;
+  text-align: justify;
+  font-style: italic;
+  line-height: 145%
+}
+
+cite{
+  font-size: 90%;
+  margin-top: 10px;
+  display: block;
+}
+
+blockquote::before{
+  content: "\201C";
+  font-size: 400%;
+  display: block;
+}
+
+cite img{
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }

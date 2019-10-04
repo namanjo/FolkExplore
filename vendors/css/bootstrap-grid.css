@@ -323,10 +323,16 @@ html {
     max-width: 25%;
   }
   .col-sm-4 {
-    -ms-flex: 0 0 23.8%;      /*Edited By Naman Joshi*/
-    flex: 0 0 23.8%;
-    max-width: 23.8%;
+    -ms-flex: 0 0 32.26%;           /*Edited By Naman Joshi*/
+    flex: 0 0 32.26%;;
+    max-width: 32.26%;
+    margin-left:1.6%;
   }
+
+  .col-sm-4:first-child{         /*Edited By Naman Joshi*/
+    margin-left: 0;      /* 23.8*3 = 96.78, rest 3.22/2 = 1.6( ie.3 margin left & one margin left should be 0)*/
+  }
+
   .col-sm-5 {
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
