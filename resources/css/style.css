@@ -433,3 +433,51 @@ cite img{
   margin-right: 10px;
   vertical-align: middle;
 }
+
+/*--------------------------*/
+/*Active Tours*/
+/*--------------------------*/
+
+.box img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.city-tours{
+  margin-bottom: 5px;
+}
+
+.city-tours .plan-price{
+  font-size: 150%;
+  font-weight: 300;
+  color: #e67e22;
+  margin-bottom: 15px;
+}
+
+.city-tours .plan-price span{
+  font-size: 50%;
+}
+
+.icon-small{
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  font-size: 120%;
+  margin-right: 10px;
+}
+
+.reservation-btn:link,
+.reservation-btn:visited{
+  text-decoration: none;
+  color: #555;
+  border: 1px solid #555;
+  padding: 8px;
+  transition: all .4s;
+}
+
+.reservation-btn:hover,
+.reservation-btn:active{
+  background-color: #555;
+  color: #fff;
+}

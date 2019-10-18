@@ -496,19 +496,25 @@ html {
     max-width: 16.666667%;
   }
   .col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-  .col-md-4 {
     -ms-flex: 0 0 23.8%;       /*Edited By Naman Joshi*/
     flex: 0 0 23.8%;
     max-width: 23.8%;
     margin-left:1.6%;   /*Total width and margin should be equal to 100*/
   }
 
-  .col-md-4:first-child{         /*Edited By Naman Joshi*/
+  .col-md-3:first-child{         /*Edited By Naman Joshi*/
     margin-left: 0;      /* 23.8*4 = 95.2, rest 4.8/3 = 1.6( ie.3 margin left & one margin left should be 0)*/
+  }
+
+  .col-md-4 {
+    -ms-flex: 0 0 32.26%;           /*Edited By Naman Joshi*/
+    flex: 0 0 32.26%;;
+    max-width: 32.26%;
+    margin-left:1.6%;
+  }
+
+  .col-md-4:first-child{         /*Edited By Naman Joshi*/
+    margin-left: 0;      /* 23.8*3 = 96.78, rest 3.22/2 = 1.6( ie.3 margin left & one margin left should be 0)*/
   }
 
   .col-md-5 {
