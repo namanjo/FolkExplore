@@ -468,16 +468,62 @@ cite img{
 }
 
 .reservation-btn:link,
-.reservation-btn:visited{
+.reservation-btn:visited
+{
   text-decoration: none;
   color: #555;
   border: 1px solid #555;
   padding: 8px;
   transition: all .4s;
+  background-color: #fff;
 }
 
 .reservation-btn:hover,
-.reservation-btn:active{
+.reservation-btn:active,
+{
   background-color: #555;
   color: #fff;
+}
+
+/*--------------------------*/
+/*Active Tours*/
+/*--------------------------*/
+.section-form{
+  background-color: #f8f8f8;
+}
+
+.contact-form{
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+input[type=submit],
+input[type=submit]{
+  display: block;
+  background-color: #2e2e2e;
+  padding: 8px 20px;
+  color: #fff;
+  border: 2px solid #2e2e2e;
+  border-radius: 20px;
+  font-weight: 300;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active{
+  background-color: #262626;
+}
+
+input[type=checkbox]{
+  margin: 10px 5px 15px 0;
 }
