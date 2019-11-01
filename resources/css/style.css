@@ -479,14 +479,14 @@ cite img{
 }
 
 .reservation-btn:hover,
-.reservation-btn:active,
+.reservation-btn:active
 {
   background-color: #555;
   color: #fff;
 }
 
 /*--------------------------*/
-/*Active Tours*/
+/*Signup -section*/
 /*--------------------------*/
 .section-form{
   background-color: #f8f8f8;
@@ -526,4 +526,65 @@ input[type=submit]:active{
 
 input[type=checkbox]{
   margin: 10px 5px 15px 0;
+}
+
+/*--------------------------*/
+/*Footer*/
+/*--------------------------*/
+
+footer{
+  background-color: #333;
+  padding: 40px;
+  font-size: 80%;
+}
+
+.footer-nav{
+  list-style: none;
+  float: left;
+}
+
+.social-links{
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+  text-decoration: none;
+  border: 0;
+  color:#888;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:hover,
+.social-links li a:active{
+  color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+  font-size: 150%;
+}
+
+footer p{
+  color: #888;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 60px;
+  clear: both;
 }
