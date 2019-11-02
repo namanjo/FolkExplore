@@ -11,6 +11,7 @@ html, body{
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix{zoom:1}
@@ -173,7 +174,7 @@ header{
 
 .main-nav li{
   display: inline-block;
-  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .main-nav li a:link,
@@ -417,8 +418,8 @@ blockquote{
 
 cite{
   font-size: 90%;
-  margin-top: 10px;
   display: block;
+  margin-left: 20px;
 }
 
 blockquote::before{

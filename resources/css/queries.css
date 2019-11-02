@@ -1,0 +1,100 @@
+/*big tablets to 1200px*/
+@media only screen and (max-width: 1200px) {
+  .hero-text-box{width: 100%;}
+}
+
+/*For tablets to big screens: from 768 0 to 1023px*/
+@media only screen and (max-width: 1023px) {
+  body{font-size: 18px;}
+  section{padding: 60px 0;}
+
+  .long-copy{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .icon-small{width: 10px;}
+  .active-tours{
+    font-size: 90%;
+  }
+  .contact-form{width: 80%;}
+
+  .card{
+    width: 45%;
+    height: 300px;
+    margin: 0 2.5% 3% 2.5%;
+  }
+
+  .card:first-of-type{
+    margin-left: 2.5%;
+  }
+
+  .section-steps .steps-card{
+    width: 97%;
+    height: 400px;
+    }
+
+    .steps-box:last-child{
+      margin-top: 55px;
+    }
+
+    .work-steps{margin-bottom: 30px;}
+    .work-steps:last-of-type{margin-bottom: 40px;}
+}
+
+/*For small phones to tablets: from 481 0 to 767px*/
+@media only screen and (max-width: 767px) {
+
+  .container{padding: 0 4%;}
+  .hero-text-box{padding: 4%;}
+
+  body{font-size: 16px}
+  section {padding: 30px 0;}
+  .main-nav {display: none;}
+
+  .long-copy{
+    width: 100%;
+    margin: 0%;
+  }
+
+  h1{font-size: 180%;}
+  h2{font-size: 150%;}
+
+  .work-steps div{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    font-size: 130%;
+    margin-right: 10px;
+  }
+
+  .card{height: 220px;}
+
+  .section-steps .steps-card{
+    width: 97%;
+    height: 250px;
+    }
+
+  .btn-app img{height: 35px;}
+  .box img {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  #img1{margin-top: 0;}
+
+  .social-links,
+  .footer-nav{
+      float: none;
+      text-align: center;
+  }
+
+  .social-links{margin-top: 20px;}
+  footer{padding: 20px;}
+  textarea{margin-bottom: 0;}
+}
+
+/*For small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+section{padding: 25px 0;}
+.contact-form{width: 100%}
+}
