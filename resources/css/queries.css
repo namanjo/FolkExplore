@@ -123,4 +123,20 @@
 @media only screen and (max-width: 480px) {
 section{padding: 25px 0;}
 .contact-form{width: 100%}
+
+.sticky #logo{
+  height: 3.1em;
+  width: 3.1em;
+  padding: 5px;
+  margin: 3px 0 3px 0px;
+}
+footer p{
+  margin-top: 2em;
+}
+.social-links li{font-size: 1.2em;}
+
+.section-form input, textarea, #boxes{
+  margin-top: 5px;
+}
+
 }

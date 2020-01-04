@@ -569,18 +569,18 @@ cite img{
 .reservation-btn:visited
 {
   text-decoration: none;
-  color: #555;
-  border: 1px solid #555;
-  padding: 8px;
+  padding: 8px 12px;
   -webkit-transition: all .4s;
   transition: all .4s;
-  background-color: #fff;
+  background-color: #2e2e2e;
+  color: #fff;
+  border-radius: 20px;
 }
 
 .reservation-btn:hover,
 .reservation-btn:active
 {
-  background-color: #555;
+  background-color: #262626;
   color: #fff;
 }
 
@@ -607,8 +607,7 @@ textarea{
   margin-bottom: 15px;
 }
 
-input[type=submit],
-input[type=submit]{
+.cool-btn{
   display: block;
   background-color: #2e2e2e;
   padding: 8px 20px;
@@ -618,8 +617,8 @@ input[type=submit]{
   font-weight: 300;
 }
 
-input[type=submit]:hover,
-input[type=submit]:active{
+.cool-btn:hover,
+.cool-btn:active{
   background-color: #262626;
 }
 
@@ -684,9 +683,15 @@ footer{
 footer p{
   color: #888;
   text-align: center;
-  font-size: 90%;
-  margin-top: 60px;
+  font-size: 110%;
+  margin-top: 3em;
   clear: both;
+}
+
+footer p:last-of-type{
+  font-size: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /*--------------------------*/
